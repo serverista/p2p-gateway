@@ -16,7 +16,7 @@ build:
 .PHONY: run
 run: build
 	@echo "Running $(BINARY_NAME)..."
-	./cmd/p2p-gateway/$(BINARY_NAME) -api https://api.serverista.com
+	./cmd/p2p-gateway/$(BINARY_NAME) -keyfile cmd/p2p-gateway/main.key -api https://api.serverista.com:8080
 
 ## Run tests
 .PHONY: test
