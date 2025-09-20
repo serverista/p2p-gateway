@@ -1,1 +1,2 @@
 cmd/p2p-gateway/p2p-gateway
+cmd/p2p-gateway/*.key
